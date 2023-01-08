@@ -1,0 +1,15 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: Proxima Nova, system-ui, sans-serif;
+    }
+
+    .customFlex {
+        @apply flex justify-center items-center bg-slate-500 h-32 w-32 text-white rounded-full border border-2 shadow-sm text-3xl font-bold hover:bg-slate-400 transition-all hover:text-cyan-400 cursor-pointer;
+    }
+}
